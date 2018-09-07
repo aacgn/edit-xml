@@ -1,0 +1,1 @@
+sed -i 's:<status environment="staging">on</status>:<status environment="staging">off</status>:' example.xml

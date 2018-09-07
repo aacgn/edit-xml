@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+  <widget>
+        <name>HTTP-POOL</name>
+        <attributes>
+            <maxconnections>5000</maxconnections>
+            <connectionsperhost>50</connectionsperhost>
+            <sockettimeout>1000</sockettimeout>
+            <connectiontimeout>200</connectiontimeout>
+            <status environment="mwh">on</status>
+            <status environment="las">on</status>
+            <status environment="iad">on</status>
+            <status environment="dub">on</status>
+            <status environment="lon">on</status>
+            <status environment="hkg">on</status>
+            <status environment="development">on</status>
+            <status environment="staging">off</status>
+            <status environment="testlab-1">on</status>
+            <status environment="perflab">on</status>
+        </attributes>
+    </widget>
+  <widget>
+    <name>GoogleOverhaul</name>
+    <attributes>
+        <status environment="mwh">on</status>
+        <status environment="las">on</status>
+        <status environment="iad">on</status>
+        <status environment="dub">off</status>
+        <status environment="lon">off</status>
+        <status environment="hkg">off</status>
+        <status environment="development">on</status>
+        <status environment="staging">off</status>
+        <status environment="testlab-1">off</status>
+        <status environment="perflab">off</status>
+    </attributes>
+</widget>
+ <widget>
+        <name>RA</name>
+        <attributes>
+            <status environment="mwh">off</status>
+            <status environment="las">off</status>
+            <status environment="iad">off</status>
+            <status environment="hkg">off</status>
+            <status environment="dub">off</status>
+            <status environment="lon">off</status>
+            <status environment="development">off</status>
+            <status environment="staging">off</status>
+            <status environment="testlab-1">off</status>
+            <status environment="perflab">off</status>
+        </attributes>
+    </widget>
+</config>
